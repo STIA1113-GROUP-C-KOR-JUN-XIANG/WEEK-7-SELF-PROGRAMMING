@@ -1,0 +1,22 @@
+Output 1:
+Enter the age of you :
+15
+Your age is too low and not enough to apply loan.
+If you wish to proceed again enter YES or NO for exit :
+No
+Thank you!
+
+Output 2:
+Enter the age of you :
+15
+Your age is too low and not enough to apply loan.
+If you wish to proceed again enter YES or NO for exit :
+Yes
+Re-enter your age again :
+19
+You are eligible to apply loan.
+
+Output 3:
+Enter the age of you :
+25
+You are eligible to apply loan.
