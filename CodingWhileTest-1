@@ -1,0 +1,27 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class WhileSelfTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the age of you :");
+		int age=sc.nextInt();
+		part: while(age<18) {
+			System.out.println("Your age is too low and not enough to apply loan.");
+			System.out.println("If you wish to proceed again enter YES or NO for exit :");
+			String rep=sc.next();
+			char reply=rep.charAt(0);
+			switch (reply) {
+			case 'N':
+				System.out.println("Thank you!");break part;
+				
+			case 'Y':
+				System.out.println("Re-enter your age again :");
+			age=sc.nextInt();
+		}
+		System.out.println("You are eligible to apply loan.");
+		sc.close();
+		}
+	}
+}
