@@ -1,0 +1,29 @@
+package SelfProgramming;
+
+public class ForSelfTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age;
+		int year;
+		for (age=5 ; age<18 ;  ) {
+			for(year=2021 ; age<18 ; age++ ) {
+				year++;
+			}System.out.println("You can apply when your age is 18 at "+year+".");	
+		}
+		System.out.println();
+		for (age=10 ; age<18 ;  ) {
+			for(year=2021 ; age<18 ; age++ ) {
+				year++;
+			}System.out.println("You can apply when your age is 18 at "+year+".");
+		System.out.println();
+		}
+		for (age=15 ; age<18 ;  ) {
+			for(year=2021 ; age<18 ; age++ ) {
+				year++;
+			}System.out.println("You can apply when your age is 18 at "+year+".");
+		}
+		
+	}
+
+}
