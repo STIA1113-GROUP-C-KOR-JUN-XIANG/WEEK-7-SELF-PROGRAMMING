@@ -1,0 +1,33 @@
+Output 1 :
+Enter your bank name: 
+maybank
+Enter your maybank password: 
+22456
+You entered the wrong password, re-enter again. You have 2 more chance left.
+Enter your maybank password: 
+22223
+You entered the wrong password, re-enter again. You have 1 more chance left.
+Enter your maybank password: 
+2123
+You entered the wrong password, re-enter again. You have 0 more chance left.
+You already tried for three times, you're not allowed to enter again, contact to maybank for further information.
+
+Output 2 :
+Enter your bank name: 
+HongLeongBank
+Enter your HongLeongBank password: 
+44563
+You entered the wrong password, re-enter again. You have 2 more chance left.
+Enter your HongLeongBank password: 
+2222
+You entered the wrong password, re-enter again. You have 1 more chance left.
+Enter your HongLeongBank password: 
+54321
+You entered the correct password.
+
+Output 3 :
+Enter your bank name: 
+BSNBank
+Enter your BSNBank password: 
+54321
+You entered the correct password.
