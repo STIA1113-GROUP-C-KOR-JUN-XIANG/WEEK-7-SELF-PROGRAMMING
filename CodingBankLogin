@@ -1,0 +1,29 @@
+package RepeatitionAndSelection;
+import java.util.Scanner;
+public class BankLogin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your bank name: ");
+		String bank=sc.next();
+		int y=0;
+		for(int x=2 ; x>=0 ; x--) {
+			System.out.println("Enter your "+bank+" password: ");
+			int pw1=sc.nextInt();
+			y++;
+			int pw0 = 54321;
+			if( pw1==pw0 ) {
+				System.out.println("You entered the correct password.");
+				break;
+			}
+			else 
+				System.out.println("You entered the wrong password, re-enter again. You have "+x+" more chance left.");
+			if( y==3 ) {
+				System.out.println("You already tried for three times, you're not allowed to enter again, contact to "+bank+" for further information.");
+				}
+		}
+		sc.close();
+	}
+
+}
